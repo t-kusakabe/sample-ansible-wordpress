@@ -1,0 +1,17 @@
+yum_install:
+  - {
+      name: "php" ,
+      state: "latest"
+  }
+  - {
+      name: "php-mysql",
+      state: "latest"
+  }
+  - {
+      name: "php-gd",
+      state: "latest"
+  }
+  - {
+      name: "php-mbstring",
+      state: "latest"
+  }
