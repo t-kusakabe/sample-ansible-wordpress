@@ -1,0 +1,9 @@
+yum_install:
+  - {
+      name: "mariadb",
+      state: "latest"
+  }
+  - {
+      name: "mariadb-server",
+      state: "latest"
+  }
