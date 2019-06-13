@@ -7,3 +7,7 @@ yum_install:
       name: "mariadb-server",
       state: "latest"
   }
+  - {
+      name: "MySQL-python",
+      state: "latest"
+  }
