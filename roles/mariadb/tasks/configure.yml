@@ -1,0 +1,12 @@
+- name: Start mariadb
+  service:
+    name: mariadb
+    state: started
+    enabled: yes
+  tags: mariadb
+
+- name: Create database
+  mysql_db:
+    name: wp
+    state: present
+  tags: mariadb
