@@ -11,3 +11,7 @@ yum_install:
       name: "wget",
       state: "latest"
   }
+  - {
+    name: "tar",
+    state: "latest"
+  }
