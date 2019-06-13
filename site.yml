@@ -4,4 +4,5 @@
   roles:
     - common
     - php
-    - mysql
+    - mariadb
+    - wordpress
