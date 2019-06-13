@@ -4,7 +4,7 @@ yum_install:
       state: "latest"
   }
   - {
-      name: "php-mysql",
+      name: "php-mysqlnd",
       state: "latest"
   }
   - {
