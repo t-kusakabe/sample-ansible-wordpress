@@ -1,0 +1,21 @@
+---
+- name: Install wordpress
+  get_url:
+    url: "{{ wordpress_url }}"
+    dest: /tmp/wordpress.tar.gz
+  tags: wordpress
+
+
+- name: Extract wordpress
+  unarchive:
+    src: /tmp/wordpress.tar.gz
+    dest: /var/www/html/
+    copy: no
+  tags: wordpress
+
+- name:
+  file: 
+    path: /var/www/html/wordpress
+    owner: apache
+    group: apache
+    recurse: yes
