@@ -1,5 +1,5 @@
 - name: Copy wp-config.php
   template:
-    src: wp-config.php
+    src: wp-config.php.j2
     dest: /var/www/html/wordpress/wp-config.php
   tags: wordpress
