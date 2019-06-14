@@ -1,2 +1,5 @@
 [wordpress]
+wordpress
 
+[localhost:children]
+wordpress
