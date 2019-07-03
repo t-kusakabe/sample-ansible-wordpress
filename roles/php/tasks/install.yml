@@ -1,6 +1,6 @@
 ---
 - name: Enable to install php7.2
-  shell: amazon-linux-extras install php7.2
+  shell: 'amazon-linux-extras install -y php7.2'
   tags: php
 
 - name: Install PHP
