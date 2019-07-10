@@ -4,6 +4,10 @@ yum_install:
       state: "latest"
   }
   - {
+    name: "php-fpm",
+    state: "latest"
+  }
+  - {
       name: "php-mysqlnd",
       state: "latest"
   }
