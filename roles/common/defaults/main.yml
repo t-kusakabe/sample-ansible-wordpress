@@ -1,9 +1,5 @@
 yum_install:
   - {
-      name: "httpd",
-      state: "latest"
-  }
-  - {
       name: "gd",
       state: "latest"
   }
