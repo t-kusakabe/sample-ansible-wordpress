@@ -1,0 +1,5 @@
+[instance]
+13.231.224.23
+
+[localhost:children]
+wordpress
