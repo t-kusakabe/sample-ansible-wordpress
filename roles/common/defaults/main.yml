@@ -1,13 +1,13 @@
 yum_install:
   - {
       name: "gd",
-      state: "latest"
+      state: "installed"
   }
   - {
       name: "wget",
-      state: "latest"
+      state: "installed"
   }
   - {
     name: "tar",
-    state: "latest"
+    state: "installed"
   }

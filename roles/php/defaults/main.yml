@@ -1,21 +1,21 @@
 yum_install:
   - {
       name: "php" ,
-      state: "latest"
+      state: "installed"
   }
   - {
     name: "php-fpm",
-    state: "latest"
+    state: "installed"
   }
   - {
       name: "php-mysqlnd",
-      state: "latest"
+      state: "installed"
   }
   - {
       name: "php-gd",
-      state: "latest"
+      state: "installed"
   }
   - {
       name: "php-mbstring",
-      state: "latest"
+      state: "installed"
   }
