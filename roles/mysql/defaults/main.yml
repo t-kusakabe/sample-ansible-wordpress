@@ -1,0 +1,13 @@
+yum_install:
+  - {
+      name: "http://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm",
+      state: "installed"
+  }
+  - {
+      name: "mysql-community-server",
+      state: "installed"
+  }
+  - {
+      name: "MySQL-python",
+      state: "installed"
+  }

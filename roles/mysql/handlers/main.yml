@@ -1,0 +1,7 @@
+---
+- name: Start MySQL
+  systemd:
+    name: mysql
+    state: started
+    enabled: yes
+    daemon_reload: yes
