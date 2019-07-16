@@ -5,5 +5,5 @@
     - common
     - nginx
     - php
-    - mariadb
+    - mysql
     - wordpress
